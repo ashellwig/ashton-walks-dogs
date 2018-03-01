@@ -8,7 +8,7 @@
 	  /* Editor */
 	  "editor.tabSize": 2,
 	  "editor.insertSpaces": true,
-	  "files.autoSave": "off",
+	  "files.autoSave": "afterDelay",
 	  "files.autoSaveDelay": 1000,
 	  "files.eol": "\n",
 	  "editor.autoIndent": true,
@@ -29,7 +29,15 @@
 		"prettier.ignorePath": ".prettierignore",
 		/* VCS */
 		// Git
-		"git.decorations.enabled": false
+		"git.decorations.enabled": false,
+		"tslint.enable": false,
+		"prettier.javascriptEnable": [
+			"javascript",
+			"javascriptreact"
+		],
+		"prettier.jsonEnable": [
+			"json"
+		]
 },
 	"extensions": {
 	  "recommendations": [
