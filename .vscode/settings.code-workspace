@@ -1,0 +1,48 @@
+{
+	"folders": [
+	  {
+		"path": "../"
+}
+	],
+	"settings": {
+	  /* Editor */
+	  "editor.tabSize": 2,
+	  "editor.insertSpaces": true,
+	  "files.autoSave": "off",
+	  "files.autoSaveDelay": 1000,
+	  "files.eol": "\n",
+	  "editor.autoIndent": true,
+	  "editor.formatOnSave": true,
+	  /* Languages */
+	  // HTML
+	  "html.format.enable": true,
+	  "workbench.iconTheme": "material-icon-theme",
+	  // JavaScript
+	  "javascript.format.enable": false,
+	  "eslint.packageManager": "yarn",
+	  "eslint.options": {
+			"configFile": ".eslintrc.js"
+		},
+		"standard.usePackageJson": true,
+	  "eslint.autoFixOnSave": true,
+	  "prettier.eslintIntegration": true,
+		"prettier.ignorePath": ".prettierignore",
+		/* VCS */
+		// Git
+		"git.decorations.enabled": false
+},
+	"extensions": {
+	  "recommendations": [
+		"eriklynd.json-tools",
+		"octref.vetur",
+		"michelemelluso.code-beautifier",
+		"formulahendry.auto-close-tag",
+		"xabikos.JavaScriptSnippets",
+		"esbenp.prettier-vscode",
+		"mgmcdermott.vscode-language-babel",
+		"PKief.material-icon-theme",
+		"dbaeumer.vscode-eslint"
+]
+	}
+}
+  
