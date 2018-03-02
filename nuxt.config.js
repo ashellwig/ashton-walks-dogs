@@ -1,5 +1,8 @@
 
 module.exports = {
+  modules: [
+    '@nuxtjs/font-awesome'
+  ],
   /*
   ** Headers of the page
   */
