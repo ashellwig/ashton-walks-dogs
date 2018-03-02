@@ -1,14 +1,17 @@
 {
-  "name": "about-ashton-vuetify",
+  "name": "ashton-walks-dogs",
   "version": "0.1.0",
   "description": "About my dog walking service",
   "author": "Ashton Hellwig <ahellwig.dev@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "build": "nuxt build",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate": "nuxt generate",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@nuxtjs/font-awesome": "^1.0.3",
@@ -32,6 +35,7 @@
     "less": "^3.0.1",
     "less-loader": "^4.0.6",
     "now": "^10.1.1",
+    "push-dir": "^0.4.1",
     "standard": "^11.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1"

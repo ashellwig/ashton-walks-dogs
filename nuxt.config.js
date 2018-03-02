@@ -1,5 +1,11 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/ashton-walks-dogs/'
+  }
+} : {}
 
 module.exports = {
+  routerBase,
   modules: [
     '@nuxtjs/font-awesome'
   ],
